@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/question"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/accept"
+            android:title="Terms and Conditions" />
+
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/ic_changelng"
+            android:title="Change Languages" />
+
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fcfcfc"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="#ffffff" />
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/pager"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:background="#fcfcfc"
+
+            >
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+
+                android:layout_marginLeft="15dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="0dp"
+                    android:orientation="vertical">
+
+                    <com.jackandphantom.circularimageview.CircleImage
+                        android:id="@+id/circleImage"
+                        android:layout_width="149dp"
+                        android:layout_height="118dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/dow"
+                        app:add_shadow="true"
+                        app:border_color="#7f1734"
+                        app:border_width="2dp"
+
+
+                        app:shadow_color="#7f1734"
+                        app:shadow_radius="15" />
+
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginEnd="245dp"
+                    android:layout_marginRight="245dp"
+                    android:text="Job"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/icon_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="46dp"
+                    android:layout_marginLeft="46dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginEnd="245dp"
+                    android:layout_marginRight="245dp"
+                    android:text="Vacancy"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+                <!--</android.support.v7.widget.CardView>-->
+            </RelativeLayout>
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="230dp"
+                android:layout_marginLeft="230dp"
+                tools:ignore="NotSibling">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <com.jackandphantom.circularimageview.CircleImage
+                        android:id="@+id/circleImage1"
+                        android:layout_width="149dp"
+                        android:layout_height="118dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/dow"
+                        app:add_shadow="true"
+                        app:border_color="#7f1734"
+                        app:border_width="2dp"
+                        app:shadow_color="#7f1734"
+                        app:shadow_radius="15" />
+
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/i2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginEnd="21dp"
+                    android:layout_marginRight="21dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Job"
+
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/icon_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginEnd="21dp"
+                    android:layout_marginRight="21dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Application"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+                <!--</android.support.v7.widget.CardView>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="125dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="190dp">
+
+                <!--<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:focusable="true"-->
+                <!--card_view:cardBackgroundColor="@android:color/white"-->
+                <!--card_view:cardElevation="15dp">-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <com.jackandphantom.circularimageview.CircleImage
+                        android:id="@+id/circleImage2"
+                        android:layout_width="149dp"
+                        android:layout_height="118dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/dow"
+                        app:add_shadow="true"
+
+                        app:border_color="#7f1734"
+                        app:border_width="2dp"
+
+
+                        app:shadow_color="#7f1734"
+                        app:shadow_radius="15" />
+
+
+                </LinearLayout>
+                <!--</android.support.v7.widget.CardView>-->
+
+                <TextView
+                    android:id="@+id/ic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginEnd="137dp"
+                    android:layout_marginRight="137dp"
+                    android:text="Job"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/icon_name2"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="37dp"
+                    android:layout_marginLeft="37dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginEnd="137dp"
+                    android:layout_marginRight="137dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Recruitment"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <!--<RelativeLayout-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="290dp">-->
+
+        <!--<android.support.v7.widget.CardView-->
+        <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="110dp"-->
+        <!--android:layout_height="110dp"-->
+        <!--android:layout_margin="5dp"-->
+
+        <!--card_view:cardBackgroundColor="@android:color/white">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/icon"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:src="@drawable/download"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/icon_name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="Vacancy"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="14sp"/>-->
+
+        <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+        <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="110dp"-->
+        <!--android:layout_height="110dp"-->
+        <!--android:layout_margin="130dp"-->
+
+        <!--card_view:cardBackgroundColor="@android:color/white">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/icon1"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:src="@drawable/download"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/icon_name1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="Application"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="14sp"/>-->
+
+        <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="119dp"-->
+
+        <!--android:layout_marginStart="240dp"-->
+        <!--&gt;-->
+
+        <!--<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="110dp"-->
+        <!--android:layout_height="110dp"-->
+        <!--android:layout_margin="5dp"-->
+        <!--card_view:cardBackgroundColor="@android:color/white">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/icon2"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:src="@drawable/download"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:scaleType="fitXY" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/icon_name2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="Recruitment"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="14sp" />-->
+
+        <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--</RelativeLayout>-->
+        <!--</RelativeLayout>-->
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

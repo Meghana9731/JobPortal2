@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="50dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job Vacancy"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFF"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:padding="5dp">
+
+            <RelativeLayout
+                android:layout_width="171dp"
+                android:layout_height="149dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+
+                    <com.jackandphantom.circularimageview.CircleImage
+                        android:id="@+id/circleImage1"
+                        android:layout_width="149dp"
+                        android:layout_height="118dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/dow"
+                        app:add_shadow="true"
+                        app:border_color="#7f1734"
+                        app:border_width="2dp"
+
+
+                        app:shadow_color="#7f1734"
+                        app:shadow_radius="10" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/icon_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginStart="49dp"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginTop="123dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Manufacturing"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+                <!--</android.support.v7.widget.CardView>-->
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="220dp"
+                android:layout_marginLeft="220dp">
+
+                <!--<android.support.v7.widget.CardView-->
+                <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:focusable="true"-->
+                <!--card_view:cardElevation="15dp"-->
+                <!--card_view:cardBackgroundColor="@android:color/white">-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="0dp">
+
+
+                    <com.jackandphantom.circularimageview.CircleImage
+                        android:id="@+id/circleImage2"
+                        android:layout_width="149dp"
+                        android:layout_height="116dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/dow"
+                        app:add_shadow="true"
+                        app:border_color="#7f1734"
+                        app:border_width="2dp"
+
+
+                        app:shadow_color="#7f1734"
+                        app:shadow_radius="10" />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/icon_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="68dp"
+                    android:layout_marginTop="123dp"
+                    android:layout_marginEnd="52dp"
+                    android:layout_marginRight="52dp"
+                    android:text="Traders"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+                <!--</android.support.v7.widget.CardView>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="120dp">
+
+                <!--<android.support.v7.widget.CardView-->
+                <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:focusable="true"-->
+                <!--card_view:cardElevation="15dp"-->
+                <!--card_view:cardBackgroundColor="@android:color/white">-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <com.jackandphantom.circularimageview.CircleImage
+                        android:id="@+id/circleImage3"
+                        android:layout_width="149dp"
+                        android:layout_height="118dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/dow"
+                        app:add_shadow="true"
+                        app:border_color="#7f1734"
+                        app:border_width="2dp"
+
+
+                        app:shadow_color="#7f1734"
+                        app:shadow_radius="10" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/icon_name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:layout_gravity="center"
+
+
+                    android:layout_marginStart="51dp"
+                    android:layout_marginLeft="51dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="center"
+                    android:text="Others"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <!--</android.support.v7.widget.CardView>-->
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="170dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="450dp">
+
+                <!--<android.support.v7.widget.CardView-->
+                <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:focusable="true"-->
+                <!--card_view:cardElevation="15dp"-->
+                <!--card_view:cardBackgroundColor="@android:color/white">-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+
+                    <com.jackandphantom.circularimageview.CircleImage
+                        android:id="@+id/circleImage4"
+                        android:layout_width="149dp"
+                        android:layout_height="118dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/dow"
+                        app:add_shadow="true"
+                        app:border_color="#7f1734"
+                        app:border_width="2dp"
+
+
+                        app:shadow_color="#7f1734"
+                        app:shadow_radius="10" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/icon_name4"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="72dp"
+                    android:layout_marginLeft="72dp"
+                    android:layout_marginTop="120dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Service"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+                <!--</android.support.v7.widget.CardView>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="450dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginLeft="220dp">
+
+                <!--<android.support.v7.widget.CardView-->
+                <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:focusable="true"-->
+                <!--card_view:cardElevation="15dp"-->
+                <!--card_view:cardBackgroundColor="@android:color/white">-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="0dp">
+
+                    <com.jackandphantom.circularimageview.CircleImage
+                        android:id="@+id/circleImage5"
+                        android:layout_width="149dp"
+                        android:layout_height="118dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/dow"
+                        app:add_shadow="true"
+                        app:border_color="#7f1734"
+                        app:border_width="2dp"
+                        app:shadow_color="#7f1734"
+                        app:shadow_radius="10" />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/icon_name5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="123dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginRight="54dp"
+                    android:text="Consultancy"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+                <!--</android.support.v7.widget.CardView>-->
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
